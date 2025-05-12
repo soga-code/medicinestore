@@ -14,33 +14,33 @@ export default function Header() {
     <header className="bg-green-600 text-white p-4 shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-3xl font-bold">MediCare+</h1>
+        <h1 className="text-3xl font-bold"><span className='text-red-700 text-4xl'>Medi</span>Care+</h1>
 
         {/* Navigation Links (Center) */}
         <nav className="hidden md:flex space-x-8 mx-auto">
           <Link 
             href="/" 
-            className="relative transition-all duration-300 hover:text-green-200 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
+            className="relative transition-all duration-300 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
           >
             Home
           </Link>
           <Link 
             href="/products" 
-            className="relative transition-all duration-300 hover:text-green-200 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
+            className="relative transition-all duration-300 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
           >
             Products
           </Link>
           <Link 
             href="/about" 
-            className="relative transition-all duration-300 hover:text-green-200 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
+            className="relative transition-all duration-300 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
           >
             About Us
           </Link>
           <Link 
             href="/contact" 
-            className="relative transition-all duration-300 hover:text-green-200 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
+            className="relative transition-all duration-300 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
           >
-            Contact
+            Contact Us
           </Link>
         </nav>
 
@@ -48,12 +48,12 @@ export default function Header() {
         <div className="relative flex items-center space-x-2 ml-4">
           <input
             type="text"
-            placeholder="Search"
+            placeholder="Search drugs here"
             value={searchQuery}
             onChange={handleSearchChange}
-            className="p-2 rounded-l-full border-none focus:outline-none"
+            className="p-2 rounded-l-full border-2 border-white focus:outline-none"
           />
-          <button className="bg-green-700 p-2 rounded-r-full hover:bg-green-800 focus:outline-none transition-all">
+          <button className="bg-green-700 p-2 border-2 border-white rounded-r-full hover:bg-green-800 focus:outline-none transition-all">
             <AiOutlineSearch size={20} />
           </button>
         </div>
