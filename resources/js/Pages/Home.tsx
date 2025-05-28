@@ -2,12 +2,16 @@ import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
+import NewArrivals from '@/components/NewArrivals';
+import PharmacistChat from '@/components/PharmacistChat';
 
 export default function Home() {
   return (
     <div className="bg-white text-gray-800">
       <Header />
       <Hero />
+      <NewArrivals />
+      <PharmacistChat />
 
       <section className="container mx-auto py-16 px-4">
         <h3 className="text-2xl font-bold text-green-700 mb-6">Why Choose MediCare+</h3>
