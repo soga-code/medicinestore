@@ -26,4 +26,8 @@ class PageController extends Controller
     {
         return Inertia::render('Cart');
     }
+    public function product(): Response
+    {
+        return Inertia::render('Product');
+    }
 }
