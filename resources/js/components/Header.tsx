@@ -20,7 +20,7 @@ export default function Header() {
         <nav className="hidden md:flex space-x-8 mx-auto">
           <Link 
             href="/" 
-            className="relative transition-all duration-300 hover:scale-110 transform after:content-[''] after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
+            className="relative transition-all duration-300 hover:scale-110 transform after:block after:h-1 after:w-0 after:bg-white after:transition-all hover:after:w-full hover:after:duration-500"
           >
             Home
           </Link>
