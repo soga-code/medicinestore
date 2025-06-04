@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import NewArrivals from '@/components/NewArrivals';
 import PharmacistChat from '@/components/PharmacistChat';
+import SpecialPromo from '@/components/SpecialPromo';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <Hero />
       <NewArrivals />
+      <SpecialPromo />
       <PharmacistChat />
 
       <section className="container mx-auto py-16 px-4">

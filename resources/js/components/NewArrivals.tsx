@@ -9,8 +9,8 @@ import { Icon } from './icon';
 
 export default function NewArrivals() {
     return (
-        <section className="px-35 py-16 ">
-            <h3 className="mb-12 text-center text-2xl font-bold text-green-700">New Drug Arrivals</h3>
+        <section className="px-35 text-green-700 text-end text-2x1 font-bold">
+            <h3 className="mb-15 text-center text-2xl font-bold text-green-700">New Drug Arrivals</h3>
             <div className="grid gap-6 md:grid-cols-4">
                 <div className="mb-12">
                   <div className="bg-cover w-80 h-80 rounded-lg mb-2 text-center pt-4 text-white font-bold" style={{ backgroundImage: "url('/images/drug1.jpg')" }}>DRUG NAME</div>
@@ -126,7 +126,7 @@ export default function NewArrivals() {
                 </div>
             </div>
             <Link href="/products" className=''>
-              <h3 className="mt-10 text-end justify-endtext-1 font-bold text-green-700 pr-11">View more</h3>
+            <h3 className='mt-10 text-center after:block after:h-1 after:w-0 after:bg-green-700 after:transition-all hover:after:w-full hover:after:duration-500 pr-11 ml-350'>View More</h3>
             </Link>
         </section>
     );

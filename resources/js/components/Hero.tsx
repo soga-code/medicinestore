@@ -1,11 +1,10 @@
-// components/Hero.tsx
 import React from 'react';
 import { Link } from '@inertiajs/react';
 
 export default function Hero() {
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat text-white py-32 text-center"
+      className="relative bg-cover bg-center bg-no-repeat text-white py-32 mb-18 text-center"
       style={{ backgroundImage: "url('/images/Heroimg1.jpg')" }}
     >
       {/* Overlay */}
