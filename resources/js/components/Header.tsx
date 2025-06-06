@@ -3,6 +3,7 @@ import { Link } from '@inertiajs/react';
 import { HiShoppingCart } from 'react-icons/hi'; // Cart Icon from React Icons
 import { AiOutlineSearch } from 'react-icons/ai'; // Search Icon from React Icons
 
+
 export default function Header() {
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -11,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-green-600 text-white p-4 shadow-md">
+    <header className="sticky top-0 z-50 bg-green-600 text-white p-4 shadow-md hover:shadow-xl transition-shadow duration-300">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <h1 className="text-3xl font-bold"><span className='text-red-700 text-4xl'>Medi</span>Care+</h1>

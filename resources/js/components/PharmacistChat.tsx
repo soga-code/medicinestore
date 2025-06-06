@@ -4,7 +4,7 @@ import { Link } from '@inertiajs/react';
 export default function PharmacyChat() {
   return (
     <section
-      className="relative bg-cover bg-center h-[400px] flex items-center"
+      className="relative bg-cover bg-center bg-fixed h-[400px] flex items-center mt-10"
       style={{
         backgroundImage: "url('/images/Heroimg1.jpg')",
       }}

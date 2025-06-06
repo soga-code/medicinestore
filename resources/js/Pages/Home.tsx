@@ -5,6 +5,10 @@ import Footer from '../components/Footer';
 import NewArrivals from '@/components/NewArrivals';
 import PharmacistChat from '@/components/PharmacistChat';
 import SpecialPromo from '@/components/SpecialPromo';
+import WhyChooseUs from '@/components/WhyChooseUs';
+import ClientSay from '@/components/ClientSay';
+import PageUp from '@/components/PageUp';
+
 
 export default function Home() {
   return (
@@ -14,8 +18,11 @@ export default function Home() {
       <NewArrivals />
       <SpecialPromo />
       <PharmacistChat />
+      <WhyChooseUs />
+      <ClientSay />
+      <PageUp />
 
-      <section className="container mx-auto py-16 px-4">
+      {/* <section className="container mx-auto py-16 px-4">
         <h3 className="text-2xl font-bold text-green-700 mb-6">Why Choose MediCare+</h3>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="p-6 border rounded-lg shadow">
@@ -31,7 +38,7 @@ export default function Home() {
             <p>Our support team is always available to assist with your needs.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>
