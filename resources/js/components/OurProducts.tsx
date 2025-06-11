@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from '@inertiajs/react';
 
 // const drugs = [
@@ -8,8 +9,8 @@ import { Link } from '@inertiajs/react';
 
 export default function NewArrivals() {
     return (
-        <section className="text-2x1 px-35 text-end font-bold text-green-700">
-            <h3 className="mb-15 text-center text-2xl font-bold text-green-700">New Drug Arrivals</h3>
+        <section className="text-2x1 px-35 text-end font-bold text-green-700 py-25">
+            {/* <h3 className="mb-15 text-center text-2xl font-bold text-green-700">New Drug Arrivals</h3> */}
             <div className="grid gap-6 md:grid-cols-4">
                 <div className="mb-20">
                     <div
@@ -240,11 +241,11 @@ export default function NewArrivals() {
                     </div>
                 </div>
             </div>
-            <Link href="/products" className="">
+            {/* <Link href="/products" className="">
                 <h3 className="mt-10 mb-20 ml-350 pr-11 text-center after:block after:h-1 after:w-0 after:bg-green-700 after:transition-all hover:after:w-full hover:after:duration-500">
                     View More
                 </h3>
-            </Link>
+            </Link> */}
         </section>
     );
 }

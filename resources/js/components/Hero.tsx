@@ -5,9 +5,10 @@ export default function Hero() {
   return (
     <section
       className="relative bg-cover h-150 bg-center bg-no-repeat text-white py-32 mb-20 text-center"
-      style={{ backgroundImage: "url('/images/Heroimg1.jpg')" }}
+      style={{ backgroundImage: "url('/images/heroimg2.jpg')" }}
     >
       {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-green-800/80"></div>
       {/* <div className="absolute inset-0 bg-gradient-to-r from-green-600/80 to-emerald-500/80 z-0"></div> */}
 
       {/* Content */}
