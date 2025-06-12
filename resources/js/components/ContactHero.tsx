@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-export default function AboutHero() {
+export default function ContactHero() {
     return (
-        <section className="flex-col-2 flex h-140 justify-between px-35 mb-20">
+        <section className="flex-col-2 flex h-140 justify-between px-35 mb-15">
             <div className="py-50">
                 <h1 className="mb-6 text-4xl text-black font-semibold">
-                    The <span className="text-green-700 text-5xl">Genesis</span> of Medicare+
+                    We are available <span className="text-green-700 text-5xl">24/7</span>, Contact <br />us below.
                 </h1>
                 <p className="text-black">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate delectus <br /> possimus magni libero illum nemo fuga unde qui ab sint, distinctio laboriosam <br /> commodi, atque voluptates officiis hic reiciendis architecto sit.

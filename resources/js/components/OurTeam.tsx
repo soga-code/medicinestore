@@ -8,29 +8,29 @@ export default function OurTeam() {
             <div className="grid grid-cols-4 gap-2 px-15">
                 <div className="p-4">
                     <div className="item-center p-4">
-                        <div className="bg-cover bg-center h-70 w-70 rounded-full mb-8" style={{ backgroundImage: "url('/images/Heroimg1.jpg')"}}></div>
+                        <div className="bg-cover bg-center h-70 w-70 rounded-full mb-8" style={{ backgroundImage: "url('/images/client1.jpg')"}}></div>
                         <h3 className='text-center font-semibold text-black mb-1'>Ayomide Ayoola</h3>
                         <h3 className='text-center text-black'>Position & Qualification</h3>
                     </div>
                 </div>
                 <div className="p-4">
                     <div className="item-center p-4">
-                        <div className="bg-cover bg-center h-70 w-70 rounded-full mb-8" style={{ backgroundImage: "url('/images/Heroimg1.jpg')"}}></div>
-                        <h3 className='text-center font-semibold text-black mb-1'>Ayomide Ayoola</h3>
+                        <div className="bg-cover bg-center h-70 w-70 rounded-full mb-8" style={{ backgroundImage: "url('/images/client2.jpg')"}}></div>
+                        <h3 className='text-center font-semibold text-black mb-1'>Micheal Tunde</h3>
                         <h3 className='text-center text-black'>Position & Qualification</h3>
                     </div>
                 </div>
                 <div className="p-4">
                     <div className="item-center p-4">
-                        <div className="bg-cover bg-center h-70 w-70 rounded-full mb-8" style={{ backgroundImage: "url('/images/Heroimg1.jpg')"}}></div>
-                        <h3 className='text-center font-semibold text-black mb-1'>Ayomide Ayoola</h3>
+                        <div className="bg-cover bg-center h-70 w-70 rounded-full mb-8" style={{ backgroundImage: "url('/images/client3.jpg')"}}></div>
+                        <h3 className='text-center font-semibold text-black mb-1'>James Jackson</h3>
                         <h3 className='text-center text-black'>Position & Qualification</h3>
                     </div>
                 </div>
                 <div className="p-4">
                     <div className="item-center p-4">
-                        <div className="bg-cover bg-center h-70 w-70 rounded-full mb-8" style={{ backgroundImage: "url('/images/Heroimg1.jpg')"}}></div>
-                        <h3 className='text-center font-semibold text-black mb-1'>Ayomide Ayoola</h3>
+                        <div className="bg-cover bg-center h-70 w-70 rounded-full mb-8" style={{ backgroundImage: "url('/images/client2.jpg')"}}></div>
+                        <h3 className='text-center font-semibold text-black mb-1'>Ken Miles</h3>
                         <h3 className='text-center text-black'>Position & Qualification</h3>
                     </div>
                 </div>
