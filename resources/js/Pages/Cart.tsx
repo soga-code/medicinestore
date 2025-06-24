@@ -2,12 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CartSummary from '@/components/CartSummary';
+import ShippingPayment from '@/components/ShippingPayment';
 
 export default function Cart() {
   return (
     <div className="bg-white text-gray-800">
       <Header />
       <CartSummary />
+      <ShippingPayment />
       <Footer />
     </div>
   );
