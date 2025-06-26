@@ -101,6 +101,31 @@ export default function ShippingPayment() {
                     Pay now
                 </Link>
             </div>
+            <h3 className="mb-10 text-start font-bold">Payment Summary</h3>
+            <div className="h-auto w-120 rounded-2xl border-2 border-gray-300 px-10 py-10 shadow-md">
+                <h3 className="mb-10 text-start font-bold">Discount</h3>
+                <div className="flex-col-2 flex gap-15 mb-10">
+                    <input type="code" placeholder="Discount code" name="name" className="w-auto rounded border border-gray-300 p-2" />
+                    <Link
+                        href="#"
+                        className="rounded-full bg-red-700 px-8 py-2 font-semibold text-white transition hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
+                    >
+                        Apply
+                    </Link>
+                </div>
+                <div className="flex-col-2 flex gap-40 mb-10">
+                    <ul className=''>Subtotal: 8 items</ul>
+                    <ul>11,000.00</ul>
+                </div>
+                <div className="flex-col-2 flex gap-40 mb-10">
+                    <ul className=''>Shipping</ul>
+                    <ul>3,500.00</ul>
+                </div>
+                <div className="flex-col-2 flex gap-40 mb-10">
+                    <ul className='font-bold'>Total:</ul>
+                    <ul>14,500.00</ul>
+                </div>
+            </div>
         </section>
     );
 }
