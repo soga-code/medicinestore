@@ -1,263 +1,55 @@
 import { Link } from '@inertiajs/react';
 
-// const drugs = [
-//   { id: 1, name: 'Paracetamol', image: '/images/paracetamol.jpg' },
-//   { id: 2, name: 'Ibuprofen', image: '/images/ibuprofen.jpg' },
-//   { id: 3, name: 'Cough Syrup', image: '/images/cough-syrup.jpg' },
-// ];
+const drugs = [
+  { id: 1, name: 'Paracetamol', price: 'N2,000', image: '/images/newdrugs1.png' },
+  { id: 2, name: 'Ibuprofen', price: 'N2,500', image: '/images/newdrug5.jpg' },
+  { id: 3, name: 'Cough Syrup', price: 'N3,000', image: '/images/newdrug3.png' },
+  { id: 4, name: 'Amoxicillin', price: 'N4,000', image: '/images/newdrug4.png' },
+  { id: 5, name: 'Vitamin C', price: 'N1,200', image: '/images/newdrug5.jpg' },
+  { id: 6, name: 'Diclofenac', price: 'N2,800', image: '/images/newdrug3.png' },
+  { id: 7, name: 'Antacid Tablets', price: 'N1,500', image: '/images/newdrug4.png' },
+  { id: 8, name: 'Allergy Relief', price: 'N2,200', image: '/images/newdrugs1.png' },
+  { id: 9, name: 'Loratadine', price: 'N3,200', image: '/images/newdrugs1.png' },
+  { id: 10, name: 'Metronidazole', price: 'N2,700', image: '/images/newdrug5.jpg' },
+  { id: 11, name: 'Zinc Tablets', price: 'N1,300', image: '/images/newdrug3.png' },
+  { id: 12, name: 'Cold Relief', price: 'N2,600', image: '/images/newdrug4.png' },
+];
 
 export default function NewArrivals() {
-    return (
-        <section className="text-2x1 px-35 text-end font-bold text-green-700">
-            <h3 className="mb-15 text-center text-2xl font-bold text-green-700">New Drug Arrivals</h3>
-            <div className="grid gap-6 md:grid-cols-4">
-                <div className="mb-20">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrugs1.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug5.jpg')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug3.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug4.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="mb-20">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug5.jpg')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug3.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug4.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrugs1.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="mb-12">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrugs1.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug5.jpg')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug3.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="">
-                    <div
-                        className="mb-2 h-80 w-80 rounded-lg bg-cover pt-4 text-center font-bold text-white"
-                        style={{ backgroundImage: "url('/images/newdrug4.png')" }}
-                    >
-                        DRUG NAME
-                    </div>
-                    <div className="flex gap-25 px-4 py-2">
-                        <h4 className="mt-2 font-semibold text-black">N10,000</h4>
-                        <div className="mt-2">
-                            <Link
-                                href="/cart"
-                                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
-                            >
-                                Add to cart
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <Link href="/products" className="">
-                <h3 className="mt-10 mb-20 ml-350 pr-11 text-center after:block after:h-1 after:w-0 after:bg-green-700 after:transition-all hover:after:w-full hover:after:duration-500">
-                    View More
-                </h3>
-            </Link>
-        </section>
-    );
-}
+  return (
+    <section className="px-6 sm:px-10 lg:px-20 xl:px-40 py-10">
+      <h3 className="mb-10 text-center text-2xl font-bold text-green-700">New Drug Arrivals</h3>
 
-{
-    /* {drugs.map((drug) => (
-<Link key={drug.id} href="/cart" className="block group text-center hover:scale-105 transition">
-<img
-src={drug.image}
-alt={drug.name}
-className="w-full h-48 object-cover rounded shadow mb-4 group-hover:ring-4 group-hover:ring-green-400"
-/>
-<h4 className="text-lg font-semibold text-gray-800 group-hover:text-green-700">{drug.name}</h4>
-</Link>
-))} */
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10 place-items-center">
+        {drugs.map((drug) => (
+          <div key={drug.id} className="w-full max-w-xs">
+            <div
+              className="h-80 w-full rounded-lg bg-cover bg-center text-center text-black font-bold flex items-end justify-center pb-4"
+              style={{ backgroundImage: `url('${drug.image}')` }}
+            >
+              {drug.name}
+            </div>
+            <div className="flex justify-between items-center px-2 py-3">
+              <h4 className="text-black font-semibold">{drug.price}</h4>
+              <Link
+                href="/cart"
+                className="rounded-full bg-red-700 px-6 py-2 font-semibold text-white hover:bg-white hover:text-red-700 hover:ring-2 hover:ring-red-700"
+              >
+                Add to cart
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="text-center mt-14">
+        <Link
+          href="/products"
+          className="relative inline-block text-green-700 font-bold hover:after:w-full after:block after:h-1 after:w-0 after:bg-green-700 after:transition-all hover:after:duration-500"
+        >
+          View More
+        </Link>
+      </div>
+    </section>
+  );
 }
